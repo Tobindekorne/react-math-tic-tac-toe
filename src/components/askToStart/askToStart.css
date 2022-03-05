@@ -1,0 +1,28 @@
+.btn-start {
+    font-size: calc(min(10vh, 10vw));
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    aspect-ratio: 1/1;
+}
+
+.btn-row {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.edit-btn {
+    position: absolute;
+    bottom: 10rem;
+    left: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .btn-row {
+        gap: 1rem;
+    }
+}
