@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './questionEditor.css';
 import {
     BsInfoCircleFill,
@@ -44,9 +45,9 @@ const QuestionEditor = () => {
 
     return (
         <div className='container'>
-            <a href='/tic-tac-toe' className='btn btn-primary back-btn'>
+            <Link to='/tic-tac-toe' className='btn btn-primary back-btn'>
                 Back
-            </a>
+            </Link>
             <table>
                 <thead>
                     <tr>
