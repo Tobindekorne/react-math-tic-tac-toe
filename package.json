@@ -1,6 +1,5 @@
 {
     "name": "react-math-tic-tac-toe",
-    "homepage": "https://tobindekorne.github.io/react-math-tic-tac-toe",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
